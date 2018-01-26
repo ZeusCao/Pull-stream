@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C01508441F25939E00EFBDD3 /* PLPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01508421F25939E00EFBDD3 /* PLPlayerViewController.m */; };
+		C01508451F25939E00EFBDD3 /* PLPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C01508431F25939E00EFBDD3 /* PLPlayerViewController.xib */; };
 		C0362DC71F21DDAE004A8170 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0362DC61F21DDAE004A8170 /* main.m */; };
 		C0362DCA1F21DDAE004A8170 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0362DC91F21DDAE004A8170 /* AppDelegate.m */; };
 		C0362DCD1F21DDAE004A8170 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0362DCC1F21DDAE004A8170 /* ViewController.m */; };
@@ -15,6 +17,7 @@
 		C0362DD51F21DDAE004A8170 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0362DD31F21DDAE004A8170 /* LaunchScreen.storyboard */; };
 		C0362DE01F21DDAE004A8170 /* __testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0362DDF1F21DDAE004A8170 /* __testTests.m */; };
 		C0362DEB1F21DDAE004A8170 /* __testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0362DEA1F21DDAE004A8170 /* __testUITests.m */; };
+		DF73A2182D8848312987CF22 /* libPods-直播test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B5B8B096568116A4194F9A1 /* libPods-直播test.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B1EE4EC9F8E066446B2B7CA /* Pods-直播test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-直播test.release.xcconfig"; path = "Pods/Target Support Files/Pods-直播test/Pods-直播test.release.xcconfig"; sourceTree = "<group>"; };
+		6B5B8B096568116A4194F9A1 /* libPods-直播test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-直播test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01508411F25939E00EFBDD3 /* PLPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLPlayerViewController.h; sourceTree = "<group>"; };
+		C01508421F25939E00EFBDD3 /* PLPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLPlayerViewController.m; sourceTree = "<group>"; };
+		C01508431F25939E00EFBDD3 /* PLPlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PLPlayerViewController.xib; sourceTree = "<group>"; };
 		C0362DC21F21DDAE004A8170 /* 直播test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "直播test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0362DC61F21DDAE004A8170 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C0362DC81F21DDAE004A8170 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +59,7 @@
 		C0362DE61F21DDAE004A8170 /* 直播testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "直播testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0362DEA1F21DDAE004A8170 /* __testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __testUITests.m; sourceTree = "<group>"; };
 		C0362DEC1F21DDAE004A8170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD819EDAF4F9ADA143C7C5A1 /* Pods-直播test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-直播test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-直播test/Pods-直播test.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF73A2182D8848312987CF22 /* libPods-直播test.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +88,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41E7F98147633D2A2B56DB0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD819EDAF4F9ADA143C7C5A1 /* Pods-直播test.debug.xcconfig */,
+				3B1EE4EC9F8E066446B2B7CA /* Pods-直播test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		598AA1D3B6A8769CFC537A60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B5B8B096568116A4194F9A1 /* libPods-直播test.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C0362DB91F21DDAE004A8170 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +112,8 @@
 				C0362DDE1F21DDAE004A8170 /* 直播testTests */,
 				C0362DE91F21DDAE004A8170 /* 直播testUITests */,
 				C0362DC31F21DDAE004A8170 /* Products */,
+				41E7F98147633D2A2B56DB0C /* Pods */,
+				598AA1D3B6A8769CFC537A60 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +134,9 @@
 				C0362DC91F21DDAE004A8170 /* AppDelegate.m */,
 				C0362DCB1F21DDAE004A8170 /* ViewController.h */,
 				C0362DCC1F21DDAE004A8170 /* ViewController.m */,
+				C01508411F25939E00EFBDD3 /* PLPlayerViewController.h */,
+				C01508421F25939E00EFBDD3 /* PLPlayerViewController.m */,
+				C01508431F25939E00EFBDD3 /* PLPlayerViewController.xib */,
 				C0362DCE1F21DDAE004A8170 /* Main.storyboard */,
 				C0362DD11F21DDAE004A8170 /* Assets.xcassets */,
 				C0362DD31F21DDAE004A8170 /* LaunchScreen.storyboard */,
@@ -147,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0362DEF1F21DDAE004A8170 /* Build configuration list for PBXNativeTarget "直播test" */;
 			buildPhases = (
+				7E1A8559687C41D4D1D8ECD9 /* [CP] Check Pods Manifest.lock */,
 				C0362DBE1F21DDAE004A8170 /* Sources */,
 				C0362DBF1F21DDAE004A8170 /* Frameworks */,
 				C0362DC01F21DDAE004A8170 /* Resources */,
+				33BA97ED3E9A60B63F0FD59D /* [CP] Embed Pods Frameworks */,
+				85AED628BF926397826F5639 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +242,7 @@
 				TargetAttributes = {
 					C0362DC11F21DDAE004A8170 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7J3H3Y24CT;
 						ProvisioningStyle = Automatic;
 					};
 					C0362DDA1F21DDAE004A8170 = {
@@ -249,6 +285,7 @@
 				C0362DD51F21DDAE004A8170 /* LaunchScreen.storyboard in Resources */,
 				C0362DD21F21DDAE004A8170 /* Assets.xcassets in Resources */,
 				C0362DD01F21DDAE004A8170 /* Main.storyboard in Resources */,
+				C01508451F25939E00EFBDD3 /* PLPlayerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +305,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33BA97ED3E9A60B63F0FD59D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-直播test/Pods-直播test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E1A8559687C41D4D1D8ECD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		85AED628BF926397826F5639 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-直播test/Pods-直播test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C0362DBE1F21DDAE004A8170 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -276,6 +361,7 @@
 				C0362DCD1F21DDAE004A8170 /* ViewController.m in Sources */,
 				C0362DCA1F21DDAE004A8170 /* AppDelegate.m in Sources */,
 				C0362DC71F21DDAE004A8170 /* main.m in Sources */,
+				C01508441F25939E00EFBDD3 /* PLPlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,22 +508,30 @@
 		};
 		C0362DF01F21DDAE004A8170 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD819EDAF4F9ADA143C7C5A1 /* Pods-直播test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7J3H3Y24CT;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "直播test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.Zeus.--test";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.Zeus.-----test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		C0362DF11F21DDAE004A8170 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B1EE4EC9F8E066446B2B7CA /* Pods-直播test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7J3H3Y24CT;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "直播test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.Zeus.--test";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.Zeus.-----test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -507,6 +601,7 @@
 				C0362DF11F21DDAE004A8170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0362DF21F21DDAE004A8170 /* Build configuration list for PBXNativeTarget "直播testTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +610,7 @@
 				C0362DF41F21DDAE004A8170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0362DF51F21DDAE004A8170 /* Build configuration list for PBXNativeTarget "直播testUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +619,7 @@
 				C0362DF71F21DDAE004A8170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

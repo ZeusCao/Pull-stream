@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "PLPlayerViewController.h"
+
 
 @interface ViewController ()
 
@@ -18,6 +20,29 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
+
+
+#pragma mark --- 开始播放按钮 ---
+- (IBAction)startPlayAction:(id)sender {
+    
+    PLPlayerViewController *playVC = [[PLPlayerViewController alloc]init];
+    UINavigationController *playNav = [[UINavigationController alloc]initWithRootViewController:playVC];
+    [self presentViewController:playNav animated:NO completion:nil];
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 - (void)didReceiveMemoryWarning {
